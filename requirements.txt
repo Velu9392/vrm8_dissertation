@@ -1,0 +1,33 @@
+# VRM8 — Kerala Flood Detection — Python Dependencies
+# Run on Google Colab (Python 3.10+)
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# Satellite data access
+planetary-computer>=0.5.1
+pystac-client>=0.7.7
+odc-stac>=0.3.9
+odc-geo>=0.4.3
+
+# Raster / GIS
+rasterio>=1.3.11
+geopandas>=0.14.4
+shapely>=2.0.0
+
+# Data science
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.13.0
+scikit-image>=0.24.0
+scikit-learn>=1.5.1
+imbalanced-learn>=0.12.3
+
+# Visualisation
+matplotlib>=3.9.2
+seaborn>=0.13.2
+
+# HTTP requests for data download
+requests>=2.32.3
+
+# Optional (already available in Colab)
+# torch
+# torchvision
